@@ -1,0 +1,10 @@
+{
+  "name": "slack-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^9.3.4",
+    "vm2": "^3.8.4"
+  }
+}
