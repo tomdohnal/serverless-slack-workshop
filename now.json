@@ -1,0 +1,6 @@
+{
+    "env": {
+        "SLACK_CLIENT_SECRET": "@slack_client_secret",
+        "SLACK_CLIENT_ID": "@slack_client_id"
+    }
+}
