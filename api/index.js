@@ -16,7 +16,7 @@ module.exports = async (req, res) => {
     attachments = [{ text: error.stack }]
   }
 
-  const message = '\`' + body.text + '\`: ' + result
+  const message = '\`' + body.text + '\`: ' + 'The result is: ' + result
   const response_type = 'in_channel'
 
   res.writeHead(200, { 'Content-Type': 'application/json' })
